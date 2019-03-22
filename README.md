@@ -1,11 +1,14 @@
 # Graph Algorithms
-C implementations of various important algorithms in graph theory for shortest paths and minimal spanning trees. Run `make` or `make all` to compile. This will produce the following executables:
-* dijkstra (`make dijkstra`)
-* prim (`make prim`)
-* kruskal (`make kruskal`)
-* bellmanford (`make bellmanford`)
+C implementations of various important algorithms in graph theory for shortest paths and minimal spanning trees. 
 
-Then run them the regular way, e.g., `./dijsktra` or optionally with one of the provided sample graphs like so - `./prim < samplegraph1.txt`
+## How to run it? 
+1. Run `make` or `make all` to compile. This will produce the following executables:
+ * Dijkstra (`make dijkstra`)
+ * Prim (`make prim`)
+ * Kruskal (`make kruskal`)
+ * Bellmanford (`make bellmanford`)
+
+2. Then run them the regular way, e.g., `./dijsktra` or optionally with one of the provided sample graphs like so - `./prim < samplegraph1.txt`
 
 ## Contents
 * Source
