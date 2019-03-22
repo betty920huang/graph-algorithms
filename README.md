@@ -3,10 +3,10 @@ C implementations of various important algorithms in graph theory for shortest p
 
 ## How to run it? 
 1. Run `make` or `make all` to compile. This will produce the following executables:
- * Dijkstra (`make dijkstra`)
- * Prim (`make prim`)
- * Kruskal (`make kruskal`)
- * Bellmanford (`make bellmanford`)
+  * Dijkstra (`make dijkstra`)
+  * Prim (`make prim`)
+  * Kruskal (`make kruskal`)
+  * Bellmanford (`make bellmanford`)
 
 2. Then run them the regular way, e.g., `./dijsktra` or optionally with one of the provided sample graphs like so - `./prim < samplegraph1.txt`
 
